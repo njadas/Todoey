@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		893D992E2337DA2C0095BE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D992D2337DA2C0095BE35 /* AppDelegate.swift */; };
 		893D99302337DA2C0095BE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D992F2337DA2C0095BE35 /* SceneDelegate.swift */; };
-		893D99322337DA2C0095BE35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D99312337DA2C0095BE35 /* ViewController.swift */; };
+		893D99322337DA2C0095BE35 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D99312337DA2C0095BE35 /* TodoListViewController.swift */; };
 		893D99352337DA2C0095BE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893D99332337DA2C0095BE35 /* Main.storyboard */; };
 		893D99372337DA2D0095BE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893D99362337DA2D0095BE35 /* Assets.xcassets */; };
 		893D993A2337DA2D0095BE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893D99382337DA2D0095BE35 /* LaunchScreen.storyboard */; };
+		893D99422337E3840095BE35 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893D99412337E3840095BE35 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		893D992A2337DA2C0095BE35 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		893D992D2337DA2C0095BE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		893D992F2337DA2C0095BE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		893D99312337DA2C0095BE35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		893D99312337DA2C0095BE35 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		893D99342337DA2C0095BE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		893D99362337DA2D0095BE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		893D99392337DA2D0095BE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		893D993B2337DA2D0095BE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893D99412337E3840095BE35 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				893D992D2337DA2C0095BE35 /* AppDelegate.swift */,
 				893D992F2337DA2C0095BE35 /* SceneDelegate.swift */,
-				893D99312337DA2C0095BE35 /* ViewController.swift */,
+				893D99312337DA2C0095BE35 /* TodoListViewController.swift */,
+				893D99412337E3840095BE35 /* CustomCell.swift */,
 				893D99332337DA2C0095BE35 /* Main.storyboard */,
 				893D99362337DA2D0095BE35 /* Assets.xcassets */,
 				893D99382337DA2D0095BE35 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				893D99322337DA2C0095BE35 /* ViewController.swift in Sources */,
+				893D99322337DA2C0095BE35 /* TodoListViewController.swift in Sources */,
 				893D992E2337DA2C0095BE35 /* AppDelegate.swift in Sources */,
+				893D99422337E3840095BE35 /* CustomCell.swift in Sources */,
 				893D99302337DA2C0095BE35 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
